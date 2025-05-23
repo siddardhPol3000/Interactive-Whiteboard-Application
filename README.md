@@ -35,8 +35,9 @@ Coming Soon — GIF or Live Preview Link
 
 ## Project Structure
 interactive-whiteboard/
-├── index.html # Main HTML file
-├── style.css # All UI styling
-├── script.js # Main drawing logic and event handlers
-└── README.md # Project documentation
+├── index.html      # Main HTML file
+├── style.css       # All UI styling
+├── script.js       # Main drawing logic and event handlers
+└── README.md       # Project documentation
+
 
