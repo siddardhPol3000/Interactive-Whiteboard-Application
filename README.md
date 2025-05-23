@@ -41,3 +41,11 @@ interactive-whiteboard/
 - README.md       # Project documentation
 
 
+## 🧪 How to Run Locally
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/yourusername/whiteboard-app.git
+   cd whiteboard-app
+2. Open in your browser
+  Just open index.html ini your preferred browser.
