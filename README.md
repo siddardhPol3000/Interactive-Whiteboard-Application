@@ -48,7 +48,8 @@ interactive-whiteboard/
    git clone https://github.com/yourusername/whiteboard-app.git
    cd whiteboard-app
 2. Open in your browser
-  Just open index.html ini your preferred browser.
+   
+  Just open index.html in your preferred browser.
 
 ---
 
