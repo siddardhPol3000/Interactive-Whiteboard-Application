@@ -49,3 +49,26 @@ interactive-whiteboard/
    cd whiteboard-app
 2. Open in your browser
   Just open index.html ini your preferred browser.
+
+---
+
+## 🧠 Key Highlights
+
+- Custom undo/redo stack using JavaScript arrays for efficient state tracking.  
+- Export function built with `Canvas.toDataURL()` and dynamic link generation.  
+- Modular code design — clean separation between logic, styles, and markup.
+
+--- 
+
+## 📌 Future Enhancements
+
+- 🧑‍🤝‍🧑 Real-time collaboration with WebSockets  
+- 🗂️ Layer support (like in graphic design apps)  
+- 🧭 Grid overlays and shape tools  
+- 🧠 AI-based shape correction
+
+--- 
+
+## 🙌 Acknowledgements
+
+Inspired by traditional whiteboards and drawing tools. Built to enhance creativity and ideation through code.
