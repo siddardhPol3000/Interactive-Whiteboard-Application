@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StudyVerse Whiteboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 class="heading">StudyVerse Whiteboard</h1>
+
+  <div class="toolbar">
+    <label for="colorPicker">Color:</label>
+    <input type="color" id="colorPicker" value="#000000" />
+
+    <label for="brushSize">Size:</label>
+    <input type="range" id="brushSize" min="1" max="20" value="5" />
+
+    <button id="undoBtn">⤺ Undo</button>
+    <button id="redoBtn">⤻ Redo</button>
+    <button id="clearBtn">🧹 Clear</button>
+    <button id="downloadBtn">📥 Download</button>
+  </div>
+
+  <div id="playground">
+    <canvas id="whiteboard"></canvas>
+  </div>
+
+  <!-- Download Filename Modal -->
+  <div id="downloadModal" class="modal">
+    <div class="modal-content">
+      <h2>Name your file</h2>
+      <input type="text" id="filenameInput" placeholder="Enter filename" value="studyverse-whiteboard" />
+      <div class="modal-buttons">
+        <button id="cancelBtn">Cancel</button>
+        <button id="saveBtn">Download</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
